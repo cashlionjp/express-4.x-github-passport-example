@@ -10,6 +10,13 @@ https://expressjs.com/en/starter/generator.html
 # To run
 Install dependences:
 ```bash
+npm Install
+```
+
+Make sure to setup config_passport_github.js and .gitignore it
+
+
+```bash
 $ DEBUG=express-4.x-github-passport-example:* npm start
 ```
 
