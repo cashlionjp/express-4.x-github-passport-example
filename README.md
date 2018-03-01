@@ -5,7 +5,7 @@ Uses Express.js generator with Hogan.js view engine
 ```bash
 $ express --view=hjs myapp
 ```
-https://expressjs.com/en/starter/generator.html
+Found here: https://expressjs.com/en/starter/generator.html
 
 # To SETUP:
 Install dependences:
@@ -16,11 +16,12 @@ Edit:
 config_passport_github.js and .gitignore it
 
 # To Run:
+On Linux and MacOS:
 ```bash
 $ DEBUG=express-4.x-github-passport-example:* npm start
 ```
 
-On Windows, use this command:
+On Windows:
 ```bash
 > set DEBUG=express-4.x-github-passport-example:* & npm start
 ```
