@@ -22,5 +22,10 @@ Visit http://localhost:3000/ to view the app.
 
 
 
-Based off on:
+Based on:
 https://github.com/passport/express-4.x-facebook-example
+and
+https://github.com/jaredhanson/passport-github
+
+Be sure to this guide for Production:
+https://expressjs.com/en/advanced/best-practice-security.html

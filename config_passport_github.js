@@ -7,7 +7,7 @@
 // ADD THIS FILE TO YOUR .gitignore
 
 module.exports = {
-    clientID: YOUR_CLIENT_ID,
-    clientSecret: YOUR_CLIENT_SECRET,
+    clientID: 'YOUR_CLIENT_ID',
+    clientSecret: 'YOUR_CLIENT_SECRET',
     callbackURL: 'http://localhost:3000/login/github/return'
 };

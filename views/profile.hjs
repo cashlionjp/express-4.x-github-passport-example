@@ -1,3 +1,4 @@
 <p>{{ user.username }}</p>
 <p>{{ user.id }}</p>
 <p>{{ user.profileUrl }}</p>
+<a href="/logout">Logout</a>

@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-// NOTE: this paths are relative to /profile/
+// NOTE: this path is relative to /profile/
 
-app.get('/',
+router.get('/',
   require('connect-ensure-login').ensureLoggedIn(),
   function(req, res){
     res.render('profile', { user: req.user });

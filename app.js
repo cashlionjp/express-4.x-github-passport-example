@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var passport = require('passport');
-var Strategy = require('passport-GitHub').Strategy;
+var Strategy = require('passport-github').Strategy;
 var creds = require('./config_passport_github');
 
 // Configure the GitHub strategy for use by Passport.
@@ -61,6 +61,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Read https://github.com/expressjs/session for more information
+app.use(require('express-session')({ secret: 'keyboard cat', resave: false, saveUninitialized: false }));
+
 
 // Initialize Passport and restore authentication state, if any, from the session.
 app.use(passport.initialize());
