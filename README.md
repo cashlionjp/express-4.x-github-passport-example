@@ -1,5 +1,5 @@
 # express-4.x-github-passport-example
-Demonstrating Express.js and Passport.js login with GitHub
+Demonstrating Express.js and Passport.js OAuth login with GitHub
 
 Uses Express.js generator with Hogan.js view engine
 ```bash
