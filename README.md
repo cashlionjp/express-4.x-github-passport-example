@@ -7,15 +7,15 @@ $ express --view=hjs myapp
 ```
 https://expressjs.com/en/starter/generator.html
 
-# To run
+# To SETUP:
 Install dependences:
 ```bash
 npm Install
 ```
+Edit:
+config_passport_github.js and .gitignore it
 
-Make sure to setup config_passport_github.js and .gitignore it
-
-
+# To Run:
 ```bash
 $ DEBUG=express-4.x-github-passport-example:* npm start
 ```
@@ -34,5 +34,5 @@ https://github.com/passport/express-4.x-facebook-example
 and
 https://github.com/jaredhanson/passport-github
 
-Be sure to this guide for Production:
+Be sure to follow this guide for Production:
 https://expressjs.com/en/advanced/best-practice-security.html
