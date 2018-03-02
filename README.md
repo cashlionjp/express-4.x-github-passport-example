@@ -1,14 +1,11 @@
 # express-4.x-github-passport-example
 Demonstrating Express.js and Passport.js OAuth login with GitHub
 
-Project Used Express.js generator with Hogan.js view engine for project boilerplate code
-Ex:
-```bash
-$ express --view=hjs myapp
-```
-Found here: https://expressjs.com/en/starter/generator.html
-
 # To SETUP:
+Clone repository
+```bash
+git clone https://github.com/cashlionjp/express-4.x-github-passport-example.git
+```
 Install dependences:
 ```bash
 npm Install
@@ -29,9 +26,14 @@ On Windows:
 
 Visit http://localhost:3000/ to view the app.
 
+Project Used Express.js generator with Hogan.js view engine for project boilerplate code
+Ex:
+```bash
+$ express --view=hjs myapp
+```
+Found here: https://expressjs.com/en/starter/generator.html
 
-
-Based on:
+And was based on:
 https://github.com/passport/express-4.x-facebook-example
 and
 https://github.com/jaredhanson/passport-github
