@@ -10,7 +10,8 @@ Install dependences:
 ```bash
 npm Install
 ```
-Edit:
+Edit file:
+
 config_passport_github.js and .gitignore it
 
 # To Run:
